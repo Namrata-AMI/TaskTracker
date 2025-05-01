@@ -15,6 +15,7 @@ const taskRoutes = require('./routes/tasks.js');
 
 const dbUrl = process.env.MONGO_URL;
 
+//mongodb+srv://namratateshwer:J6gMKaci0Hxk2pgF@cluster0.mongodb.net/Task_Tracker?retryWrites=true&w=majority//
 
 app.use(cors());
 app.use(express.json());
